@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISMT College | British Degrees in Nepal - Powered by Cloud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <span>Quick Contact: +977-1-4112122 | +977-9700021282</span>
+        <span>info@ismt.edu.np</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-ismt">ISMT</span>
+            <span class="logo-sub">College Nepal</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#campuses">Campuses</a></li>
+            <li><a href="#cloud">Cloud Migration</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="apply-btn" onclick="scrollToSection('contact')">Apply Now</button>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Est. 2011 &bull; 1500+ Students &bull; 5 Campuses</span>
+            <h1>Your Gateway to a <span class="highlight">British Degree</span> in Nepal</h1>
+            <p>ISMT College delivers internationally recognized UK degrees in partnership with the University of Sunderland and Pearson BTEC. Now hosted on the AWS Cloud for speed, reliability, and security.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('courses')">Explore Courses</button>
+                <button class="btn-secondary" onclick="scrollToSection('cloud')">See Our Cloud Journey</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><strong>11+</strong><span>Years of Experience</span></div>
+                <div class="stat"><strong>7</strong><span>Programmes Offered</span></div>
+                <div class="stat"><strong>5</strong><span>Campuses in Nepal</span></div>
+                <div class="stat"><strong>99.9%</strong><span>Cloud Uptime</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title">About ISMT College</h2>
+        <p class="section-subtitle">International School of Management and Technology</p>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="icon">&#127891;</div>
+                <h3>Introduction</h3>
+                <p>ISMT was established in 2011 with a mission to deliver internationally recognized qualifications. We offer British degrees in collaboration with the University of Sunderland and Pearson BTEC, UK.</p>
+            </div>
+            <div class="about-card">
+                <div class="icon">&#127919;</div>
+                <h3>Mission, Vision &amp; Values</h3>
+                <p>To deliver inclusive, cost-effective, internationally recognized academic programmes that make higher education accessible to all with the passion and ability to succeed.</p>
+            </div>
+            <div class="about-card">
+                <div class="icon">&#129309;</div>
+                <h3>Academic Partnerships</h3>
+                <p>Institutional partnership with the University of Sunderland, UK and Pearson Edexcel — one of the world's leading awarding bodies for globally respected qualifications.</p>
+            </div>
+            <div class="about-card">
+                <div class="icon">&#127979;</div>
+                <h3>Facilities</h3>
+                <p>Air-conditioned classrooms, well-equipped IT labs, sport grounds, parking space, and centrally located campuses accessible from every corner of the valley.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses section alt-bg">
+        <h2 class="section-title">Programmes We're Offering</h2>
+        <p class="section-subtitle">Undergraduate &amp; Postgraduate British Degrees</p>
+        <div class="course-grid">
+            <div class="course-card">
+                <span class="tag">Undergraduate</span>
+                <h3>BSc (Hons) Computer Systems Engineering (IT)</h3>
+                <p>Taught through BTEC HND in Computing leading to the final year of Bachelor's degree.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Undergraduate</span>
+                <h3>BA (Hons) Business and Management (BBA)</h3>
+                <p>Develop business acumen with an internationally recognized management degree.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Undergraduate</span>
+                <h3>BSc (Hons) International Tourism &amp; Hospitality Management (BHM)</h3>
+                <p>Prepare for a global career in tourism and hospitality industries.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Undergraduate</span>
+                <h3>BSc (Hons) Computer Science</h3>
+                <p>Deep dive into computing theory, programming, and software engineering.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Undergraduate</span>
+                <h3>BSc (Hons) Cyber Security &amp; Digital Forensics</h3>
+                <p>Defend digital landscapes with cutting-edge security and forensic skills.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Postgraduate</span>
+                <h3>Master of Business Administration (MBA)</h3>
+                <p>Advance your leadership career with a prestigious UK MBA.</p>
+            </div>
+            <div class="course-card">
+                <span class="tag">Postgraduate</span>
+                <h3>MSc Computing</h3>
+                <p>Specialize in advanced computing topics for technical leadership roles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campuses Section -->
+    <section id="campuses" class="campuses section">
+        <h2 class="section-title">Our Campuses</h2>
+        <p class="section-subtitle">Accessible from every corner of Nepal</p>
+        <div class="campus-grid">
+            <div class="campus-card">
+                <h3>Kathmandu</h3>
+                <p>Tinkune, Gairigaun, Kathmandu</p>
+                <p>+977-1-4112122 / 4112159</p>
+                <p>info@ismt.edu.np</p>
+            </div>
+            <div class="campus-card">
+                <h3>Pokhara</h3>
+                <p>Annapurna Marg, Pokhara-15 (near Forestry Campus)</p>
+                <p>+977-61-433826 / 435436</p>
+                <p>pokhara@ismt.edu.np</p>
+            </div>
+            <div class="campus-card">
+                <h3>Chitwan</h3>
+                <p>Bharatpur-12, near Naurangi Chowk</p>
+                <p>+977-56-515146</p>
+                <p>chitwan@ismt.edu.np</p>
+            </div>
+            <div class="campus-card">
+                <h3>Biratnagar</h3>
+                <p>Biratnagar-4, Kanchanbari</p>
+                <p>+977-021-423141 / 465231</p>
+                <p>biratnagar@ismt.edu.np</p>
+            </div>
+            <div class="campus-card">
+                <h3>Butwal</h3>
+                <p>Tilottama-2, Janaki Nagar, Yogikuti, Rupandehi</p>
+                <p>+977-71-437238 / 9801183808</p>
+                <p>butwal@ismt.edu.np</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Migration Section -->
+    <section id="cloud" class="cloud section alt-bg">
+        <h2 class="section-title">ISMT x Cloud Pulse Pvt Ltd.</h2>
+        <p class="section-subtitle">Our journey from on-premises servers to the AWS Cloud</p>
+
+        <div class="migration-story">
+            <div class="phase">
+                <div class="phase-icon on-prem">&#128421;</div>
+                <h3>Before: On-Premises</h3>
+                <p>All college services were hosted on local servers at Tinkune, Kathmandu. Limited scalability, single point of failure, manual backups, and high maintenance costs.</p>
+                <ul>
+                    <li>&#10060; Server hardware aging &amp; costly</li>
+                    <li>&#10060; No automatic failover</li>
+                    <li>&#10060; Slow website during admission peaks</li>
+                    <li>&#10060; Manual data backup process</li>
+                </ul>
+            </div>
+            <div class="phase-arrow">&rarr;</div>
+            <div class="phase">
+                <div class="phase-icon cloud">&#9729;</div>
+                <h3>After: AWS Cloud</h3>
+                <p>Migrated to a secure three-tier AWS VPC architected by Cloud Pulse Pvt Ltd. Auto-scaling, load balancing, and managed services ensure 99.9% availability worldwide.</p>
+                <ul>
+                    <li>&#9989; Elastic auto-scaling EC2 fleet</li>
+                    <li>&#9989; Multi-AZ high availability</li>
+                    <li>&#9989; Application Load Balancer</li>
+                    <li>&#9989; Automated backups &amp; monitoring</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="why-cloud">
+            <h3>Why We Migrated to the Cloud</h3>
+            <div class="reason-grid">
+                <div class="reason"><strong>Scalability</strong><p>Handles admission-season traffic spikes automatically with Auto Scaling Groups.</p></div>
+                <div class="reason"><strong>Cost Efficiency</strong><p>Pay-as-you-go pricing replaced expensive server hardware refresh cycles.</p></div>
+                <div class="reason"><strong>Reliability</strong><p>Multi-Availability Zone design keeps the college website online 24/7.</p></div>
+                <div class="reason"><strong>Security</strong><p>Security Groups, NAT Gateways, and private subnets protect student data.</p></div>
+                <div class="reason"><strong>Disaster Recovery</strong><p>Automated snapshots and cross-region backup strategies safeguard records.</p></div>
+                <div class="reason"><strong>Global Reach</strong><p>Students abroad access results and resources with low latency via CloudFront.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="architecture" class="architecture section">
+        <h2 class="section-title">Our Three-Tier AWS Architecture</h2>
+        <p class="section-subtitle">Designed &amp; implemented by Cloud Pulse Pvt Ltd.</p>
+
+        <div class="vpc-diagram">
+            <div class="internet-gateway">
+                <span>&#127760; Internet Users</span>
+                <div class="arrow-down">&darr;</div>
+            </div>
+
+            <div class="vpc-box">
+                <div class="vpc-label">AWS VPC — ISMT College (10.0.0.0/16) — Region: ap-south-1 (Mumbai)</div>
+
+                <!-- Public Subnets -->
+                <div class="tier-row">
+                    <div class="subnet public-subnet">
+                        <div class="subnet-label">Public Subnet AZ-a (10.0.1.0/24)</div>
+                        <div class="resource alb">Application Load Balancer</div>
+                        <div class="subnet-label second">Public Subnet AZ-b (10.0.2.0/24)</div>
+                        <div class="resource nat">NAT Gateway (outbound only)</div>
+                    </div>
+                    <div class="subnet public-subnet">
+                        <div class="subnet-label">Public Subnet AZ-b (10.0.2.0/24)</div>
+                        <div class="resource alb">ALB (Standby Node)</div>
+                        <div class="subnet-label second">Bastion Host</div>
+                        <div class="resource nat">Secure SSH Access</div>
+                    </div>
+                </div>
+
+                <div class="arrow-down">&darr;</div>
+
+                <!-- Private App Tier -->
+                <div class="tier-row">
+                    <div class="subnet private-subnet wide">
+                        <div class="subnet-label">Private Subnets — Application Tier (Auto Scaling Group)</div>
+                        <div class="ec2-row">
+                            <div class="resource ec2">EC2 Instance<br>Web/App Server 1<br><small>ap-south-1a</small></div>
+                            <div class="resource ec2">EC2 Instance<br>Web/App Server 2<br><small>ap-south-1b</small></div>
+                            <div class="resource ec2 scaling">EC2 Instance<br>Scaled on demand<br><small>ASG Managed</small></div>
+                        </div>
+                        <div class="asg-badge">Auto Scaling Group: min 2 / desired 2 / max 6 — CPU target 70%</div>
+                    </div>
+                </div>
+
+                <div class="arrow-down">&darr;</div>
+
+                <!-- Private Data Tier -->
+                <div class="tier-row">
+                    <div class="subnet private-subnet wide">
+                        <div class="subnet-label">Private Subnets — Database Tier</div>
+                        <div class="ec2-row">
+                            <div class="resource db">RDS MySQL<br>Primary<br><small>Multi-AZ</small></div>
+                            <div class="resource db standby">RDS Standby<br>Replica<br><small>Automatic failover</small></div>
+                            <div class="resource s3">S3 Bucket<br>Documents &amp;<br>Backups</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="legend">
+                <span><i class="dot green"></i> Security Groups control all inbound/outbound traffic</span>
+                <span><i class="dot blue"></i> Private instances reach internet via NAT Gateway only</span>
+                <span><i class="dot orange"></i> ALB distributes HTTP/HTTPS across healthy instances</span>
+            </div>
+        </div>
+
+        <div class="security-groups">
+            <h3>Security Groups Configuration</h3>
+            <table>
+                <thead>
+                    <tr><th>Security Group</th><th>Type</th><th>Protocol</th><th>Port</th><th>Source</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>sg-alb</td><td>Inbound HTTPS</td><td>TCP</td><td>443</td><td>0.0.0.0/0</td></tr>
+                    <tr><td>sg-alb</td><td>Inbound HTTP</td><td>TCP</td><td>80</td><td>0.0.0.0/0</td></tr>
+                    <tr><td>sg-web</td><td>Inbound HTTP</td><td>TCP</td><td>80</td><td>sg-alb only</td></tr>
+                    <tr><td>sg-db</td><td>Inbound MySQL</td><td>TCP</td><td>3306</td><td>sg-web only</td></tr>
+                    <tr><td>sg-nat</td><td>Outbound All</td><td>All</td><td>All</td><td>0.0.0.0/0</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section alt-bg">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Start your British degree journey today</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Main Campus:</strong> Tinkune, Gairigaun, Kathmandu, Nepal</p>
+                <p><strong>Phone:</strong> +977-1-4112122 / 4112159</p>
+                <p><strong>Email:</strong> info@ismt.edu.np</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/ISMTCollege/">Facebook</a>
+                    <a href="https://twitter.com/ismtcollege">Twitter</a>
+                    <a href="https://www.instagram.com/ismt_college/">Instagram</a>
+                    <a href="https://www.youtube.com/user/ISMTCollegeKTM">YouTube</a>
+                </div>
+            </div>
+            <form id="applicationForm" class="contact-form" onsubmit="submitForm(event)">
+                <input id="appFullName" name="full_name" type="text" placeholder="Full Name" required>
+                <input id="appEmail" name="email" type="email" placeholder="Email Address" required>
+                <select id="appCampus" name="campus" required>
+                    <option value="" disabled selected>Select Preferred Campus</option>
+                    <option value="Kathmandu">Kathmandu</option>
+                    <option value="Pokhara">Pokhara</option>
+                    <option value="Chitwan">Chitwan</option>
+                    <option value="Biratnagar">Biratnagar</option>
+                    <option value="Butwal">Butwal</option>
+                </select>
+                <select id="appCourse" name="course_id" required>
+                    <option value="" disabled selected>Select Preferred Course</option>
+                    <option value="1">BSc (Hons) Computer Systems Engineering (IT)</option>
+                    <option value="2">BA (Hons) Business and Management (BBA)</option>
+                    <option value="3">BSc (Hons) International Tourism &amp; Hospitality Management (BHM)</option>
+                    <option value="4">BSc (Hons) Computer Science</option>
+                    <option value="5">BSc (Hons) Cyber Security &amp; Digital Forensics</option>
+                    <option value="6">MBA</option>
+                    <option value="7">MSc Computing</option>
+                </select>
+                <textarea id="appMessage" name="message" placeholder="Your Message" rows="3"></textarea>
+                <button type="submit" class="btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>About ISMT</h4>
+                <p>Established in 2011, delivering internationally recognized British qualifications in Nepal.</p>
+            </div>
+            <div>
+                <h4>Courses</h4>
+                <p>BSc IT &bull; BBA &bull; BHM &bull; BSc CS &bull; Cyber Security &bull; MBA &bull; MSc Computing</p>
+            </div>
+            <div>
+                <h4>Campus Network</h4>
+                <p>Kathmandu &bull; Pokhara &bull; Chitwan &bull; Biratnagar &bull; Butwal</p>
+            </div>
+            <div>
+                <h4>Powered By</h4>
+                <p>AWS Cloud &mdash; migrated by Cloud Pulse Pvt Ltd., Kathmandu</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 ISMT College | Demonstration website for Unit 28 Cloud Computing assignment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

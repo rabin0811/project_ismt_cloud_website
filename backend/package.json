@@ -1,0 +1,12 @@
+{
+  "name": "ismt-cloud-platform",
+  "version": "1.0.0",
+  "description": "ISMT College cloud-hosted web platform with Student Management System - Unit 28 Cloud Computing demonstrator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
