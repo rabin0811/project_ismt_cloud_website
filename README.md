@@ -26,13 +26,13 @@ npm ci
 node server.js
 ```
 
-The server runs on port `3005` (set `PORT` to override) and serves the frontend.
+The server runs on port `3000` by default (set `PORT` to override, for example `$env:PORT=3005`) and serves the project root.
 
 Open:
 
-- Public site: <http://localhost:3005/>
-- Admin page: <http://localhost:3005/admin.html>
-- Health check: <http://localhost:3005/health>
+- Public site: <http://localhost:3000/frontend/index.html>
+- Admin page: <http://localhost:3000/frontend/admin.html>
+- Health check: <http://localhost:3000/health>
 
 Demo admin: `admin` / `ismt2026`.
 
@@ -58,6 +58,6 @@ Demo admin: `admin` / `ismt2026`.
 ## Troubleshooting
 
 - **`node:sqlite` not found**: upgrade Node.js to 22 or newer.
-- **Port 3005 in use**: set `PORT=3006` before starting.
+- **Port 3000 in use**: set `PORT=3006` before starting.
 - **Admin login fails**: confirm `admin` / `ismt2026` or inspect the seeded `admins` table.
 - **Application form does nothing**: confirm `/api/applications` is reachable and the course IDs in the form match `/api/courses`.
